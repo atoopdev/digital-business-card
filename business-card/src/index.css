@@ -1,11 +1,79 @@
-body {
+* {
+  box-sizing: border-box;
+}
+
+html, body {
   margin: 0;
+  padding: 0;
+  font-size: 16px;
   font-family: 'Inter', sans-serif;
+  background-color: #1A1B21;
+  color: #FFFFFF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img{
+  max-width: 100%;
+  display: block;
+}
+
+h1,h2,h3,p{
+  margin: 0;
+}
+
+#root{
+  width: 317px;
+  margin: 0 auto;
+}
+
+.header{
+  text-align: center;
+}
+
+.header-img{
+  width: 317px;
+}
+
+.name h1{
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.title{
+  font-size: 12.8px;
+  color: #F3BF99;
+}
+
+.website a{
+  color: #F5F5F5;
+  text-decoration: none;
+  font-size: 10.24px;
+}
+
+.button-box{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn{
+  display: inline-block;
+  margin: 20px 10px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.email-btn{
+  
+  background-color: #FFFFFF;
+  color: #1E1F26;
+  padding: 9px 13px;
+}
+
+.linkedin-btn{
+  background-color: #5093E2;
+
 }
