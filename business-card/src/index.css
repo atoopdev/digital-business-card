@@ -88,6 +88,11 @@ h1,h2,h3,p{
   padding: 9px 30px;
 }
 
+.email-btn a{
+  text-decoration: none;
+  color:#1E1F26;
+}
+
 .linkedin-icon{
   width: 15px;
   margin-right: 10px;
@@ -95,10 +100,28 @@ h1,h2,h3,p{
 .linkedin-btn{
   display: flex;
   background-color: #5093E2;
-  color:#FFFFFF;
   padding: 9px 20px;
+}
+
+.linkedin-btn a{
+  text-decoration: none;
+  color:#FFFFFF;
 }
 
 .white-filter{
   filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.main{
+  padding: 15px 26px;
+}
+
+.interests-header{
+  margin-top: 15px;
+}
+
+p{
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 10px;
 }
