@@ -125,3 +125,16 @@ p{
   line-height: 1.5;
   margin-bottom: 10px;
 }
+
+.footer{
+  background-color: #161619;
+}
+
+.footer-items{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-items li{
+  list-style: none;
+}
