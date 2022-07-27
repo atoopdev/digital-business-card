@@ -76,16 +76,27 @@ h1,h2,h3,p{
   cursor: pointer;
 }
 
+.email-icon{
+  width: 15px;
+  margin-right: 10px;
+}
 .email-btn{
-  
+  display: flex;
+  align-items: center;
   background-color: #FFFFFF;
   color: #1E1F26;
-  padding: 9px 13px;
+  padding: 9px 30px;
 }
 
+.linkedin-icon{
+  width: 15px;
+  margin-right: 10px;
+}
 .linkedin-btn{
+  display: flex;
   background-color: #5093E2;
   color:#FFFFFF;
+  padding: 9px 20px;
 }
 
 .white-filter{
