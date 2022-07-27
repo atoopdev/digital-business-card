@@ -2,6 +2,7 @@ import React from "react"
 import header_img from "../images/portfolio_header_cropped.jpg"
 import LinkedinLogo from "../images/linkedin-brands.svg"
 import EmailIcon from "../images/envelope-solid.svg"
+// 
 
 export default function Header(){
     return <header className="header">
