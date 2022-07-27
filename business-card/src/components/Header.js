@@ -12,7 +12,7 @@ export default function Header(){
         <h3 className="website"><a href="https://wwww.amandatoop.com/">wwww.amandatoop.com</a></h3>
         <div className="button-box">
             <button className="btn email-btn"><img src={EmailIcon} alt="envelope icon"></img>Email</button>
-            <button className="btn linkedin-btn"><img src={LinkedinLogo} alt="LinkedIn Logo"></img>LinkedIn</button>
+            <button className="btn linkedin-btn"><img src={LinkedinLogo} className="white-filter" alt="LinkedIn Logo"></img>LinkedIn</button>
         </div>
     </header>
 }

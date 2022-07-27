@@ -87,3 +87,7 @@ h1,h2,h3,p{
   background-color: #5093E2;
   color:#FFFFFF;
 }
+
+.white-filter{
+  filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
