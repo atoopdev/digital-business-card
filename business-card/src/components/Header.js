@@ -8,8 +8,8 @@ export default function Header(){
         <h2 className="title">Frontend Developer</h2>
         <h3 className="website"><a href="https://wwww.amandatoop.com/">wwww.amandatoop.com</a></h3>
         <div className="button-box">
-            <button className="btn email-btn">Email</button>
-            <button className="btn linkedin-btn">LinkedIn</button>
+            <button className="btn email-btn"><i class="fa-solid fa-envelope"></i>Email</button>
+            <button className="btn linkedin-btn"><i class="fa-brands fa-linkedin"></i>LinkedIn</button>
         </div>
     </header>
 }
