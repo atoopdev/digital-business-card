@@ -5,8 +5,8 @@ import GitHubIcon from "../images/square-github-brands.svg"
 export default function Footer(){
     return <footer className="footer">
         <ul className="footer-items">
-            <li><img src={TwitterIcon} className="footer-icons grey-filter" alt="Twitter icon"></img></li>
-            <li><img src={GitHubIcon} className="footer-icons grey-filter" alt="github icon"></img></li>
+            <li><a href="https://twitter.com/atoop"><img src={TwitterIcon} className="footer-icons grey-filter" alt="Twitter icon"></img></a></li>
+            <li><a href="https://github.com/atoopdev"><img src={GitHubIcon} className="footer-icons grey-filter" alt="github icon"></img></a></li>
         </ul>
     </footer>
 }
