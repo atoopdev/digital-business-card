@@ -24,10 +24,17 @@ h1,h2,h3,p{
 #root{
   width: 317px;
   margin: 0 auto;
+  
 }
 
 .header{
   text-align: center;
+
+}
+.header,
+.header-img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .header,
@@ -37,8 +44,6 @@ h1,h2,h3,p{
 
 .header-img{
   width: 317px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
 .name h1{
@@ -102,6 +107,7 @@ h1,h2,h3,p{
   display: flex;
   background-color: #5093E2;
   padding: 9px 20px;
+  align-items: center;
 }
 
 .linkedin-btn a{
@@ -109,6 +115,7 @@ h1,h2,h3,p{
   color:#FFFFFF;
 }
 
+/* calculated via codepen.io/sosuke/pen/Pjoqqp */
 .white-filter{
   filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
