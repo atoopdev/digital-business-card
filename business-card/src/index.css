@@ -80,10 +80,6 @@ h1,h2,h3,p{
   cursor: pointer;
 }
 
-.email-icon{
-  width: 15px;
-  margin-right: 10px;
-}
 .email-btn{
   display: flex;
   align-items: center;
@@ -97,7 +93,8 @@ h1,h2,h3,p{
   color:#1E1F26;
 }
 
-.linkedin-icon{
+.linkedin-icon,
+.email-icon{
   width: 15px;
   margin-right: 10px;
 }
